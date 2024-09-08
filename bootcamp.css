@@ -1,0 +1,48 @@
+header {
+    background-color: #4A306D;
+    color: #fff;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 0 12px;
+    list-style: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    margin: 40px 80px;
+  }
+  
+  #introduction {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #D3BCCC;
+    padding-bottom: 24px;
+  }
+  
+  #introduction img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #introduction h2 {
+    font-size: 48px;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
